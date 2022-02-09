@@ -1,0 +1,31 @@
+body {
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div {
+    width: 700px;
+    height: 200px;
+    background-color: #DDD;
+    margin:0 auto;
+    border-radius: 20px 20px 20px 20px;
+}
+form h3 {
+    margin:0;
+    padding:0;
+}
+p {
+    margin:6px;
+}
+h1 {
+    margin:3px;
+}
+table {
+    width: 600px;
+    border:1px solid black;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+td {
+    border:1px solid black;
+}

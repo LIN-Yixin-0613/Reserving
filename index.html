@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation System: Singapore High-Speed Intercontinental Railway System</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="index.js"></script>
+    <script>
+        Initialize();
+    </script>
+</head>
+<body>
+    <br>
+    <h1>Reservation System</h1>
+    <h4 style="color:#888;margin:5px;">Singapore High-Speed Intercontinental Railway System</h4>
+    <br>
+    <div>
+        <form name="bookingForm" onsubmit="return Book()">
+            <br><h3>Reservation</h3>
+            Please check the reservation list below and enter an available serial number 
+            <p>Serial No.: <input type="number" name="seriesNo"></p>
+            <p>Passenger Name: <input type="text" name="pName"></p>
+            <p>Phone Number: <input type="text" name="phoneNumber"></p>
+            <p><input type="submit" value="Submit"></p>
+        </form>
+    </div>
+    <br>
+    <div style="height: 150px;">
+        <form name="cancelForm" onsubmit="return Cancel()">
+            <br><h3>Cancellation</h3>
+            Please check the reservation list below and enter an reserved serial number 
+            <p>Serial No.: <input type="number" name="cSeriesNo"></p>
+            <p><input type="submit" value="Submit"></p>
+        </form>
+    </div>
+    <br>
+    <button onclick="return RList()">Reservation List</button>
+</body>
+</html>
